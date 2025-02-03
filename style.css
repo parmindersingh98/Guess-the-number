@@ -100,8 +100,9 @@ input{
 
 
   @media (max-width: 600px) {
+    
     .message{
-        font-size: 25px;
+        font-size: 20px;
     }
     .input_msg{
         font-size: 13px;
@@ -110,9 +111,13 @@ input{
     .title{
         font-size: 20px;
     }
-          .container{
+    .container{
         width: 80%;
         border: none;
+    }
+    .wrapper input, button{
+        width: 100%;
+        margin-bottom: 20px;
     }
   }
   
