@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 59%, rgba(0,212,255,1) 100%);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    color: #fff;
+}
+
+.title {
+    font-size: 3rem;
+    color: #f3d276;
+    text-shadow: 5px 5px 5px #000000;
+    margin-bottom: 2rem;
+}
+
+.answer{
+    font-size: 5rem;
+    color: #f3d276;
+    text-shadow: 5px 5px 5px #000000;
+    margin-bottom: 1rem;
+}
+
+.message{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.input_msg{
+    font-size: 1rem;
+    text-align: left;
+    /* margin-bottom: 1rem; */
+}
+
+input{
+    width: 100%;
+    border: 2px solid #000000;
+    margin: 0.5rem 0  0.5rem 0; 
+    font-size: 1.5rem;
+}
+.wrapper{
+    margin-bottom: 2rem;
+}
+
+.btn{
+    padding: 5px 10px;
+    background-color: #80ff00;
+    box-shadow: 1px 1px 5px #6fff00;
+    border: 2px solid #ffffff;
+    font-weight: 600;
+}
+.btn:hover{
+    box-shadow: 3px 3px 15px #6fff00;
+}
+.reset:hover{
+    box-shadow: 3px 3px 15px #ff0000;
+}
+
+.btn:active, .reset:active{
+    transform: translateY(-1px);
+    transform: scale(0.9);
+}
+
+.reset{
+    padding: 5px 10px;
+    color: #fff;
+    background-color: rgb(255, 0, 0);
+    box-shadow: 1px 1px 5px #ff0000;
+    border: 2px solid #ffffff;
+    font-weight: 600;
+}
+
+.container{
+    background-color: #00000031;
+    border: 2px solid #ffffff;
+    padding: 30px 100px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px #ffffffb3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+
+.container:hover{
+    background-color: #00000010;    
+    box-shadow: 5px 5px 20px #ffffffb3;
+}
+
+
+
+
+  @media (max-width: 600px) {
+    .message{
+        font-size: 25px;
+    }
+    .input_msg{
+        font-size: 13px;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+  }
+  

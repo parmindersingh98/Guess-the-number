@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess the Number</title>
+  </head>
+  <body>
+    <h1 class="title">Guess The Number 1 to 100</h1>
+    <div class="container">
+      <h2 class="answer">?</h2>
+      <p class="message">Let's start!</p>
+      <div class="wrapper">
+        <label class="input_msg" for="players_guess">Enter your Guess :</label>
+        <input type="number" class="number" id="players_guess" />
+        <button class="btn">Check</button>
+        <button class="reset">Reset</button>
+      </div>
+      <p>Attempts : <span class="attempts_count">0</span></p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
